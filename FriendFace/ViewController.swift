@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UITableViewController, UISearchResultsUpdating {
     var friends = [Friend]()
     var filteredFriends = [Friend]()
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +20,6 @@ class ViewController: UITableViewController, UISearchResultsUpdating {
         search.searchBar.placeholder = "Find a friend"
         search.searchResultsUpdater = self
         navigationItem.searchController = search
-        
-        
         
         DispatchQueue.global().async {
             do {
@@ -73,4 +70,3 @@ class ViewController: UITableViewController, UISearchResultsUpdating {
         tableView.reloadData()
     }
 }
-
