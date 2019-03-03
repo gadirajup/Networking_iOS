@@ -15,6 +15,7 @@
 		A4A5518F222C7D9300E0BE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A5518D222C7D9300E0BE6C /* LaunchScreen.storyboard */; };
 		A4A5519A222C7D9300E0BE6C /* FriendFaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A55199222C7D9300E0BE6C /* FriendFaceTests.swift */; };
 		A4A551A5222C7D9300E0BE6C /* FriendFaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A551A4222C7D9300E0BE6C /* FriendFaceUITests.swift */; };
+		A4A551B3222C7EF000E0BE6C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A551B2222C7EF000E0BE6C /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A4A551A0222C7D9300E0BE6C /* FriendFaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A551A4222C7D9300E0BE6C /* FriendFaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFaceUITests.swift; sourceTree = "<group>"; };
 		A4A551A6222C7D9300E0BE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A551B2222C7EF000E0BE6C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				A4A55181222C7D9300E0BE6C /* AppDelegate.swift */,
 				A4A55183222C7D9300E0BE6C /* ViewController.swift */,
+				A4A551B2222C7EF000E0BE6C /* Friend.swift */,
 				A4A55185222C7D9300E0BE6C /* Main.storyboard */,
 				A4A5518B222C7D9300E0BE6C /* Assets.xcassets */,
 				A4A5518D222C7D9300E0BE6C /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				A4A5518A222C7D9300E0BE6C /* FriendFace.xcdatamodeld in Sources */,
 				A4A55184222C7D9300E0BE6C /* ViewController.swift in Sources */,
 				A4A55182222C7D9300E0BE6C /* AppDelegate.swift in Sources */,
+				A4A551B3222C7EF000E0BE6C /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
